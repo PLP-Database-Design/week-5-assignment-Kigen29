@@ -4,7 +4,8 @@
   "description": "This demonstrates the cconnection of MySQL database and Node.js to create a simple API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,6 @@
     "express": "^4.21.0",
     "mysql2": "^3.11.3",
     "nodemon": "^3.1.7"
-  }
+  },
+  "devDependencies": {}
 }
